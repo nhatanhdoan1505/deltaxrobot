@@ -14,7 +14,7 @@ services:
     container_name: deltaX
     build: .
     ports:
-      - "5000:5000"
+      - "3001:3001"
     links:
       - mongodb
     command: npm start
